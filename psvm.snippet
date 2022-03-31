@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>psvm</Title>
+			<Shortcut>psvm</Shortcut>
+			<Description>Code snippet for Public Static Void Main</Description>
+			<Author>Chandan Gupta Bhagat</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Imports>
+				<Import>
+					<Namespace>System</Namespace>
+				</Import>
+			</Imports>
+			<Declarations>
+				<Literal Editable="false">
+					<ID>string</ID>
+					<Function>SimpleTypeName(global::System)</Function>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[public static void Main(string[] args)
+			{
+				$end$
+			}]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
