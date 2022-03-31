@@ -39,6 +39,17 @@
     </td>
     <td>Writes lorem string</td>
 </tr>
+<tr>
+    <td>psvm</td>
+    <td>
+    <code>public static void Main(string[] args)
+    {
+        &nbsp;
+    }   
+    </code>
+    </td>
+    <td>Creates a public static void main method</td>
+</tr>
 
 </tbody>
 </table>
